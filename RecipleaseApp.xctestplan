@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "EF133451-BC68-4318-A035-5A55B270091D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RecipleaseApp.xcodeproj",
+      "identifier" : "53EB7F5D29E7ECB700FB2180",
+      "name" : "RecipleaseApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecipleaseApp.xcodeproj",
+        "identifier" : "53EB7F7329E7ECB900FB2180",
+        "name" : "RecipleaseAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecipleaseApp.xcodeproj",
+        "identifier" : "53EB7F7D29E7ECB900FB2180",
+        "name" : "RecipleaseAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
