@@ -31,16 +31,16 @@ class RecipesTableViewCell: UITableViewCell {
         }
     }
     
-    var recipeFavorite: FavoritesRecipes? {
-        didSet {
-            guard let image = recipeFavorite?.image else { return }
-            titleLabel.text = recipeFavorite?.label
-            subtitleLabel.text = recipeFavorite?.ingredientsLines?.joined()
-            imageRecipeView.image = UIImage(named: image)
-            likeLabel.text = "\(recipeFavorite?.yield ?? 0)"
-            timeLabel.text = "\(recipeFavorite?.totalTime ?? 0)"
-        }
-    }
+//    var recipeFavorite: FavoritesRecipes? {
+//        didSet {
+//            guard let image = recipeFavorite?.image else { return }
+//            titleLabel.text = recipeFavorite?.label
+//            subtitleLabel.text = recipeFavorite?.ingredientsLines?.joined()
+//            imageRecipeView.image = UIImage(named: image)
+//            likeLabel.text = "\(recipeFavorite?.yield ?? 0)"
+//            timeLabel.text = "\(recipeFavorite?.totalTime ?? 0)"
+//        }
+//    }
     
     var recipeData: RecipeData? {
            didSet {

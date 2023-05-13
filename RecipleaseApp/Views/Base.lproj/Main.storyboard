@@ -11,7 +11,7 @@
         <!--RecipeList-->
         <scene sceneID="hsh-Ju-Fvp">
             <objects>
-                <viewController title="RecipeList" id="Oen-Du-fcW" customClass="RecipeListViewController" customModule="Reciplease" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RecipeList" id="Oen-Du-fcW" customClass="RecipeListViewController" customModule="RecipleaseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wua-KQ-oIm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecipesResult" rowHeight="150" id="bd0-CT-jBf" customClass="RecipesTableViewCell" customModule="Reciplease" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecipesResult" rowHeight="150" id="bd0-CT-jBf" customClass="RecipesTableViewCell" customModule="RecipleaseApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bd0-CT-jBf" id="dJ7-y1-Uqb">
@@ -33,7 +33,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEi-Hq-xJd" customClass="GradientView" customModule="Reciplease" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEi-Hq-xJd" customClass="GradientView" customModule="RecipleaseApp" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="89.666666666666671" width="393" height="60.333333333333329"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="31d-MF-BOg">
@@ -67,7 +67,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyF-rE-gcL" customClass="CustomView" customModule="Reciplease" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyF-rE-gcL" customClass="CustomView" customModule="RecipleaseApp" customModuleProvider="target">
                                                     <rect key="frame" x="303" y="10" width="80" height="60"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9Xb-wU-VTK">
@@ -182,7 +182,7 @@
         <!--Search-->
         <scene sceneID="T4E-VC-Qzk">
             <objects>
-                <viewController title="Search" id="yGa-Zy-vpx" customClass="SearchViewController" customModule="Reciplease" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Search" id="yGa-Zy-vpx" customClass="SearchViewController" customModule="RecipleaseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpQ-z7-OHZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -274,7 +274,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="378"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" id="AzX-Uk-mu5" customClass="IngredientsTableViewCell" customModule="Reciplease" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" id="AzX-Uk-mu5" customClass="IngredientsTableViewCell" customModule="RecipleaseApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="393" height="42"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AzX-Uk-mu5" id="0vW-BD-lg5">
@@ -365,7 +365,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Skc-fK-9yd">
             <objects>
-                <tabBarController id="Bgr-oq-DOt" customClass="TabBarController" customModule="Reciplease" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="Bgr-oq-DOt" customClass="TabBarController" customModule="RecipleaseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="eqz-eE-irj">
                         <barButtonItem key="backBarButtonItem" title="Back" id="1wk-JI-S48"/>
                     </navigationItem>
@@ -387,7 +387,7 @@
         <!--Favorites-->
         <scene sceneID="6d0-e9-cbd">
             <objects>
-                <viewController title="Favorites" id="1MK-sE-mnW" customClass="FavoritesViewController" customModule="Reciplease" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Favorites" id="1MK-sE-mnW" customClass="FavoritesViewController" customModule="RecipleaseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AGI-Ux-MVy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -405,7 +405,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecipesResult" rowHeight="150" id="aCk-sW-CYY" customClass="RecipesTableViewCell" customModule="Reciplease" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecipesResult" rowHeight="150" id="aCk-sW-CYY" customClass="RecipesTableViewCell" customModule="RecipleaseApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="393" height="150"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aCk-sW-CYY" id="vUj-PQ-USj">
@@ -416,7 +416,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </imageView>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIR-eF-VMl" customClass="GradientView" customModule="Reciplease" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIR-eF-VMl" customClass="GradientView" customModule="RecipleaseApp" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="89.666666666666671" width="393" height="60.333333333333329"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Zji-8R-Z5e">
@@ -450,7 +450,7 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iix-Sg-fkq" customClass="CustomView" customModule="Reciplease" customModuleProvider="target">
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iix-Sg-fkq" customClass="CustomView" customModule="RecipleaseApp" customModuleProvider="target">
                                                             <rect key="frame" x="303" y="10" width="80" height="60"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="g7W-BB-KOE">
@@ -600,7 +600,7 @@
         <!--Details-->
         <scene sceneID="4YT-zH-UzJ">
             <objects>
-                <viewController title="Details" id="RuS-ep-QDF" customClass="RecipeDetailsViewController" customModule="Reciplease" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Details" id="RuS-ep-QDF" customClass="RecipeDetailsViewController" customModule="RecipleaseApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I5y-j4-Gln">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -633,7 +633,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mup-uO-qMQ">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="277.33333333333331"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXp-QK-Sr2" customClass="GradientView" customModule="Reciplease" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXp-QK-Sr2" customClass="GradientView" customModule="RecipleaseApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="240.00000000000003" width="393" height="37.333333333333343"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
@@ -641,7 +641,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekn-c7-yii" customClass="CustomView" customModule="Reciplease" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ekn-c7-yii" customClass="CustomView" customModule="RecipleaseApp" customModuleProvider="target">
                                         <rect key="frame" x="303" y="10" width="80" height="60"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-Hd-fNl">
@@ -798,7 +798,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Cty-Ng-T7I"/>
+        <segue reference="mPA-H1-MOM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="clock" catalog="system" width="128" height="123"/>
